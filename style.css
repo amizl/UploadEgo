@@ -22,6 +22,8 @@ a {
     padding: 0 32px;
 }
 
+/* ================= Header ================= */
+
 .site-header {
     background-color: #0b1120;
     position: sticky;
@@ -54,13 +56,22 @@ a {
 
 .nav a {
     color: #ffffff;
-    opacity: 0.85;
+    opacity: 0.8;
+    padding-bottom: 6px;
+    border-bottom: 2px solid transparent;
 }
 
 .nav a:hover,
 .nav a:focus {
     opacity: 1;
 }
+
+.nav a.active {
+    opacity: 1;
+    border-bottom: 2px solid #93c5fd;
+}
+
+/* ================= Hero ================= */
 
 .hero {
     position: relative;
@@ -73,12 +84,6 @@ a {
         url("https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=2000&q=80");
     background-size: cover;
     background-position: center;
-}
-
-.hero-overlay {
-    position: absolute;
-    inset: 0;
-    background-color: rgba(9, 16, 32, 0.7);
 }
 
 .hero-content {
@@ -106,7 +111,10 @@ a {
 .hero p {
     font-size: 18px;
     max-width: 640px;
+    color: rgba(226, 232, 240, 0.95);
 }
+
+/* ================= Bands ================= */
 
 .band {
     padding: 88px 0;
@@ -166,10 +174,12 @@ a {
     max-width: 720px;
 }
 
+/* ================= Footer ================= */
+
 .site-footer {
     background-color: #0b1120;
     color: #ffffff;
-    padding: 40px 0 56px;
+    padding: 72px 0 80px;
 }
 
 .footer-content {
@@ -182,6 +192,8 @@ a {
 .footer-content p {
     color: rgba(226, 232, 240, 0.8);
 }
+
+/* ================= Responsive ================= */
 
 @media (max-width: 900px) {
     .band-content {
