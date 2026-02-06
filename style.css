@@ -43,14 +43,13 @@ a {
     font-size: 14px;
     letter-spacing: 0.2em;
     font-weight: 600;
-    color: #111827;
+    color: #1f3a5f;
 }
 
 .nav {
     display: flex;
     gap: 20px;
     font-size: 14px;
-    color: #374151;
 }
 
 .nav a {
@@ -60,8 +59,8 @@ a {
 
 .nav a:hover,
 .nav a:focus {
-    border-bottom: 1px solid #d1d5db;
-    color: #111827;
+    border-bottom: 1px solid #1f3a5f;
+    color: #1f3a5f;
 }
 
 .hero {
@@ -69,12 +68,16 @@ a {
     background-color: #ffffff;
 }
 
-.eyebrow {
+.section-label {
     display: inline-block;
     font-size: 12px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: #6b7280;
+    margin-bottom: 16px;
+}
+
+.eyebrow {
     margin-bottom: 16px;
 }
 
@@ -87,7 +90,6 @@ a {
 
 .hero p {
     font-size: 18px;
-    color: #4b5563;
     max-width: 720px;
 }
 
@@ -100,9 +102,9 @@ a {
 }
 
 .section-muted {
-    background-color: #f9fafb;
-    border-top: 1px solid #f3f4f6;
-    border-bottom: 1px solid #f3f4f6;
+    background-color: rgba(31, 58, 95, 0.04);
+    border-top: 1px solid rgba(31, 58, 95, 0.08);
+    border-bottom: 1px solid rgba(31, 58, 95, 0.08);
 }
 
 .section h2 {
@@ -113,7 +115,6 @@ a {
 
 .section p {
     margin-bottom: 16px;
-    color: #374151;
     max-width: 720px;
 }
 
@@ -127,18 +128,15 @@ a {
     margin-bottom: 12px;
     padding-left: 20px;
     position: relative;
-    color: #374151;
 }
 
 .section ul li::before {
     content: "—";
     position: absolute;
     left: 0;
-    color: #9ca3af;
 }
 
 .section a {
-    color: #111827;
     font-weight: 500;
 }
 
@@ -147,7 +145,6 @@ a {
     text-align: center;
     padding: 24px 0 40px;
     font-size: 13px;
-    color: #6b7280;
     background-color: #ffffff;
 }
 
